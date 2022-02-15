@@ -28,8 +28,12 @@ I have requested that AWS do the following to make it easier for both themselves
 5. Require AWS Partners, Marketplace vendors, and anyone else you have influence over to use IMDSv2 for their products and solutions they deploy in customer environments.
 6. Any AWS service or feature should support IMDSv2 enforcement. For example, the recent [EC2 fast launch](https://aws.amazon.com/about-aws/whats-new/2022/01/aws-speed-optimizations-windows-instances-ec2/) feature only supports IMDSv2 when used from the API, and not from the web console.
 
-# Wall of Shame
+
+--------------------------------------------------------------------------
+# IMDSv2 Wall of Shame
 The following vendors do not allow customers to enforce IMDSv2 in their accounts. Please file issues or PRs to add more or to help remove vendors from this list when they make the necessary improvements.
 
-- Palo Alto
 - Databricks
+- [NewRelic Ruby Agent](https://github.com/newrelic/newrelic-ruby-agent/issues/552)
+- [Palo Alto firewalls](https://github.com/PaloAltoNetworks/AWS-GWLB-VMSeries/issues/25)
+
