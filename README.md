@@ -2,7 +2,7 @@
 The following vendors do not allow customers to enforce IMDSv2 in their accounts. More information about what this is, what AWS can do, and what you can do, can be found beneath this list.
 
 - Databricks
-- [NewRelic Ruby Agent](https://github.com/newrelic/newrelic-ruby-agent/issues/552)
+- [New Relic Ruby Agent](https://github.com/newrelic/newrelic-ruby-agent/issues/552)
 - [Palo Alto firewalls](https://github.com/PaloAltoNetworks/AWS-GWLB-VMSeries/issues/25)
 
 
