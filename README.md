@@ -19,7 +19,7 @@ I have a number of requests to AWS themselves to improve the ability to enforce 
 # Requests to AWS
 The recent [BreakingFormation](https://orca.security/resources/blog/aws-cloudformation-vulnerability/) security incident had questionable impact, but it did show that AWS's own production EC2s, that internally run the CloudFormation service, are not enforcing IMDSv2.  As a result of AWS not implementing their own advised security best practices, they fell victim to an attack that IMDSv2 was specifically created to defeat.  AWS controls the entire platform and ecosystem, and security is publicly described as "job zero" at AWS: Therefore, they should be the most capable of implementing security best practices on themselves, but it was shown they have not. Security incidents of cloud providers themselves [are becoming more common](https://github.com/SummitRoute/csp_security_mistakes) and they have an obligation to customers to implement security best practices.
 
-I have requested that AWS do the following to make it easier for both themselves and their customers to enforce IMDSv2. Please reach out to your AWS account teams to have them plus one these requests on your behalf.
+I have requested that AWS do the following to make it easier for both themselves and their customers to enforce IMDSv2. 
 
 1. Add an ability to set a default account setting to enforce IMDSv2 much like they did for S3 Public Block Access. Creating an EC2 in the web console by default creates one that allows IMDSv1 and will result in an AccessDenied if you enforce IMDSv2 via an SCP.
 2. Make it possible to see in the web console which EC2s do not enforce IMDSv2 and to enforce it.
@@ -27,6 +27,13 @@ I have requested that AWS do the following to make it easier for both themselves
 4. Auto-decode EC2 Access Denied errors when the user has the sts:DecodeAuthorizationMessage privilege. Decoding these errors manually is a bad user experience. IMDSv2 enforcement via SCPs are currently a painful user experience because of this.
 5. Require AWS Partners, Marketplace vendors, and anyone else you have influence over to use IMDSv2 for their products and solutions they deploy in customer environments.
 6. Any AWS service or feature should support IMDSv2 enforcement. For example, the recent [EC2 fast launch](https://aws.amazon.com/about-aws/whats-new/2022/01/aws-speed-optimizations-windows-instances-ec2/) feature only supports IMDSv2 when used from the API, and not from the web console.
+
+## Requests to you as a customer
+Please reach out to your AWS account teams to have them plus one my requests to AWS on your behalf.
+If you use any of the vendors listed below, please request they update their products to support IMDSv2 enforcement.
+
+## Requests to vendors
+Ensure all your products allow IMDSv2 enforcement.
 
 
 --------------------------------------------------------------------------
