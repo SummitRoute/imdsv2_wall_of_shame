@@ -1,3 +1,12 @@
+# IMDSv2 Wall of Shame
+The following vendors do not allow customers to enforce IMDSv2 in their accounts. More information about what this is, what AWS can do, and what you can do, can be found beneath this list.
+
+- Databricks
+- [NewRelic Ruby Agent](https://github.com/newrelic/newrelic-ruby-agent/issues/552)
+- [Palo Alto firewalls](https://github.com/PaloAltoNetworks/AWS-GWLB-VMSeries/issues/25)
+
+
+---------------------------------
 # What is IMDSv2?
 In the wake of the [2019 Capital One breach](https://krebsonsecurity.com/2019/07/capital-one-data-theft-impacts-106m-people/), AWS [released](https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/) IMDSv2 as a way of mitigating SSRF attacks against EC2s that could steal the credentials of their IAM roles.
 By default, EC2s still allow the old Instance MetaData Service (IMDSv1) and so special action must be taken to require IMDSv2.  The insecurity of IMDSv1 has been publicly [discussed](http://www.daemonology.net/blog/2008-12-18-AWS-signature-version-1-is-insecure.html) since 2008, and presented at major security conferences such as [Black Hat](https://www.youtube.com/watch?v=2NF4LjjwoZw).
@@ -29,18 +38,11 @@ I have requested that AWS do the following to make it easier for both themselves
 6. Any AWS service or feature should support IMDSv2 enforcement. For example, the recent [EC2 fast launch](https://aws.amazon.com/about-aws/whats-new/2022/01/aws-speed-optimizations-windows-instances-ec2/) feature only supports IMDSv2 when used from the API, and not from the web console.
 
 ## Requests to you as a customer
-Please reach out to your AWS account teams to have them plus one my requests to AWS on your behalf.
-If you use any of the vendors listed below, please request they update their products to support IMDSv2 enforcement.
+- Please reach out to your AWS account teams to have them plus one my requests to AWS on your behalf.
+- If you use any of the vendors listed, please request they update their products to support IMDSv2 enforcement.
+- If you know of any other vendors that should be listed, please file issues or PRs against this repo.
+
 
 ## Requests to vendors
 Ensure all your products allow IMDSv2 enforcement.
-
-
---------------------------------------------------------------------------
-# IMDSv2 Wall of Shame
-The following vendors do not allow customers to enforce IMDSv2 in their accounts. Please file issues or PRs to add more or to help remove vendors from this list when they make the necessary improvements.
-
-- Databricks
-- [NewRelic Ruby Agent](https://github.com/newrelic/newrelic-ruby-agent/issues/552)
-- [Palo Alto firewalls](https://github.com/PaloAltoNetworks/AWS-GWLB-VMSeries/issues/25)
 
