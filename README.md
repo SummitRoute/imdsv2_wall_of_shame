@@ -21,7 +21,7 @@ Enforcing IMDSv2 can be done using the SCP found [here](https://summitroute.com/
 I want to improve the security of all customers on AWS by better enabling them to apply the security best practice of enforcing IMDSv2. This includes eradicating IMDSv1 from vendors and making IMDSv2 enforcement the default on AWS.
 
 ## How will this goal be accomplished?
-I am going list the vendors here that are not allowing customers to use security best practices because they do not allow them to enforce IMDSv2.
+I am going to list the vendors here that are not allowing their customers to follow security best practices by not allowing them to enforce IMDSv2.
 I will be reaching out to these vendors to ensure they are aware of this project and request they provide timelines on their improvement.
 I have a number of requests to AWS themselves to improve the ability to enforce IMDSv2, and this includes making it a requirement of vendors to enforce IMDSv2. As such, any vendors that are harmful to the security of AWS customers should be delisted from the AWS Partner network.
 
