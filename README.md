@@ -1,8 +1,10 @@
 # IMDSv2 Wall of Shame
 The following vendors do not allow customers to enforce IMDSv2 in their accounts. More information about what this is, what AWS can do, and what you can do, can be found beneath this list.
 
+- Crowdstrike
 - Databricks
 - [New Relic Ruby Agent](https://github.com/newrelic/newrelic-ruby-agent/issues/552)
+- Okta ASA agent
 - [Palo Alto firewalls](https://github.com/PaloAltoNetworks/AWS-GWLB-VMSeries/issues/25)
 
 
