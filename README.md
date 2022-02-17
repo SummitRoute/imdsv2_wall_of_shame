@@ -11,7 +11,7 @@ The following vendors do not allow customers to enforce IMDSv2 in their accounts
 ---------------------------------
 # What is IMDSv2?
 In the wake of the [2019 Capital One breach](https://krebsonsecurity.com/2019/07/capital-one-data-theft-impacts-106m-people/), AWS [released](https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/) IMDSv2 as a way of mitigating SSRF attacks against EC2s that could steal the credentials of their IAM roles.
-By default, EC2s still allow the old Instance MetaData Service (IMDSv1) and so special action must be taken to require IMDSv2.  The insecurity of IMDSv1 has been publicly [discussed](http://www.daemonology.net/blog/2008-12-18-AWS-signature-version-1-is-insecure.html) since 2008, and presented at major security conferences such as [Black Hat](https://www.youtube.com/watch?v=2NF4LjjwoZw).
+By default, EC2s still allow the old Instance MetaData Service (IMDSv1) and so special action must be taken to require IMDSv2.  The insecurity of IMDSv1 has been presented at major security conferences for years, such as [Black Hat](https://www.youtube.com/watch?v=2NF4LjjwoZw) in 2014.
 
 
 ## Enforcing IMDSv2
