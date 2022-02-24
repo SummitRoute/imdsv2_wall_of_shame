@@ -4,7 +4,6 @@ The following vendors do not allow customers to enforce IMDSv2 in their accounts
 - Crowdstrike Falcon
 - Databricks
 - Fidelis CloudPassage Halo
-- [New Relic Ruby Agent](https://github.com/newrelic/newrelic-ruby-agent/issues/552)
 - Okta ASA agent
 - [Palo Alto firewalls](https://github.com/PaloAltoNetworks/AWS-GWLB-VMSeries/issues/25)
 
