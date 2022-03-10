@@ -5,7 +5,9 @@ The following vendors do not allow customers to enforce IMDSv2 in their accounts
 - Databricks
 - Fidelis CloudPassage Halo
 - Okta ASA agent
-- [Palo Alto firewalls](https://github.com/PaloAltoNetworks/AWS-GWLB-VMSeries/issues/25)
+
+## How accurate is this list?
+Where possible, I've linked to public support pages or Github issues for the vendors that confirm the vendor does not support IMDSv2. If that does not exist, then I have relied on multiple reports from customers (in all cases at least one such customer is someone I know personally). I have also reached out to the vendors to let them know they are on this list so they can provide corrections if this is not true. Check the commit history of this repo to see when this list was last updated.
 
 
 ---------------------------------
