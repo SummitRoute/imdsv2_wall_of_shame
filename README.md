@@ -3,7 +3,6 @@ The following vendors do not allow customers to enforce IMDSv2 in their accounts
 
 - Crowdstrike Falcon
 - Databricks
-- Fidelis CloudPassage Halo
 - Okta ASA agent
 
 ## How accurate is this list?
