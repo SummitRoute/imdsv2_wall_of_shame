@@ -2,7 +2,6 @@
 The following vendors do not allow customers to enforce IMDSv2 in their accounts. More information about what this is, what AWS can do, and what you can do, can be found beneath this list.
 
 - AWS Data Pipelines
-- Crowdstrike Falcon
 - Databricks
 - Juniper vSRX
 - [Okta ASA agent](https://help.okta.com/asa/en-us/Content/Topics/Adv_Server_Access/docs/aws-overview.htm)
