@@ -7,6 +7,7 @@ The following vendors do not allow customers to enforce IMDSv2 in their accounts
 - Juniper vSRX
 - [Okta ASA agent](https://help.okta.com/asa/en-us/Content/Topics/Adv_Server_Access/docs/aws-overview.htm)
 - SAS Viya
+- Tecton
 
 ## How accurate is this list?
 Where possible, I've linked to public support pages or Github issues for the vendors that confirm the vendor does not support IMDSv2. If that does not exist, then I have relied on multiple reports from customers (in all cases at least one such customer is someone I know personally). I have also reached out to the vendors to let them know they are on this list so they can provide corrections if this is not true. Check the commit history of this repo to see when this list was last updated.
