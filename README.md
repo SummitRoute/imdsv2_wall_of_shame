@@ -5,7 +5,7 @@ The following vendors do not allow customers to enforce IMDSv2 in their accounts
 - Databricks
 - Juniper vSRX
 - [Okta ASA agent](https://help.okta.com/asa/en-us/Content/Topics/Adv_Server_Access/docs/aws-overview.htm)
-- [Palo Alto Network Prisma Cloud](https://prismacloud.ideas.aha.io/ideas/PANW-I-3889)
+- [Palo Alto Networks Prisma Cloud](https://prismacloud.ideas.aha.io/ideas/PANW-I-3889)
 - SAS Viya
 - Tecton
 
